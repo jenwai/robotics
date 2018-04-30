@@ -8,9 +8,18 @@ slam = simultaneous localization and mapping
 
 local view 0 = global view 0 
 
-laser = rangefinder = more like sonar 
-vision is different, no range (but stereo camera can)
+laser = rangefinder = more like sonar (weakness: cant detect glass wall, cant detect thin poles)
+vision is different, no range (but stereo camera can) but stereo still can detect glass wall, need to make assumption
 Answer: add another camera to form stereo image to improve rovio to do SLAM, distance based input to get cartesian coordinate to do mapping
+
+
+
+2 methods 
+one return to global 0 
+
+dr zati method return to previosu global 
+
+
 
 update global view with every local view after each movement = slam 
 slam desperately need coordinate
