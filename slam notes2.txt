@@ -1,0 +1,48 @@
+slam
+
+kinematics (for)
+	a. forward 
+  	- given turnAngle, moveDistance
+    - find next position coordinates
+  	- to get new localised views 
+    
+  b. inverse
+  	- given next position coordinates(p-next), 
+    - find turnangle, moveDistance
+    - inverse the transformation (step1 reverse transition, step2 reverse rotation)
+  	- combine obtained coordinates with global view
+    - drifting occurs when forward kinematics, given coordinate != actual coordinate, coordinates maths (Monte Cardo, E-Kalman Filter) to adjust
+  
+  more sonar sensors (overlapping bit (higher level of trust) for higher accuracy) for larger coverage angle (180) similar to human view angle
+  = one laser sensor also 180 angle to 30m
+  one sonar sensor emit 30 degree sound cone to 3m (no need overlap because no environmental limitations and own weaknesses)
+  
+  Dr zati paper
+  robot mapping without a precise map
+  
+Exam tips 
+8 questions
+ 1. sensor 
+  sonar laser
+  limitation of sensor
+  accuracy
+  
+2. occluding edge
+  significant 
+  occluding and occluded
+  
+3. slam  
+	slam for dummies (overview)
+  question given graph
+  ask label 
+  compare forward inverse kinematics
+  
+4. drift 
+appears in forward
+
+5. template matching (codes) and UK RAS Impact of AI on Intelligent Robotics
+
+6. important, impact of robotics, machine (+ example)
+	important/role of comp vision in robotics
+  important of ai 
+	reactive and delibrative
