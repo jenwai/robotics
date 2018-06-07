@@ -6,10 +6,11 @@ between occludin and occluded, there is an area we cant see, which to be explore
 - assumption: with direction change, the occluding/occluded edges may change as well
 - gap = space to explore = can be used for navigation 
 - difference of gap tracking to obstacle detection(avoidance): (different navigation strategies)
-  - slam navi gt direction to go 
+  - gap tracking provides direction to go 
   - obstacle avoidance no direction to go 
-  - autonomous movement, explore path on its own 
-  - significant of occlusion to intelligent robot navigation
+  - autonomous movement, explore path on its own  
+  
+ - significant of occlusion to intelligent robot navigation
   - occluding mimic human behaviour go finding path to go 
   - obstacle avoidance = reactive model (less thinking), change direction (react) when approach obstacle 
   - occluding higher chance in reaching the end of corridor
