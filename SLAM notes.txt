@@ -1,4 +1,9 @@
 between occludin and occluded, there is an area we cant see, which to be explore, there is a space the robot might go to expand the map 
+- sudden big difference in distance (from origin) between occluding and occluded edge
+- gap = space to explore = can be used for navigation 
+- difference of navigation to obstacle detection(avoidance): 
+  - slam navi gt direction to go 
+  - obstacle avoidance no direction to go 
 
 global view = combination of local views
 
